@@ -281,7 +281,7 @@ client.on('interactionCreate', async (interaction) => {
   console.log(`[NUEVA PREGUNTA] Servidor: ${interaction.guild.name} | Keyword: ${keyword} | Comando: ${comando}`);
 
   await interaction.reply({
-    embeds: [createPinkEmbed('✅ Pregunta agregada correctamente',
+    embeds: [createPinkEmbed('✅ Pregunta pene correctamente',
       `**Palabra clave:** ${keyword}\n**Comando:** \`/${comando}\`\n**Respuesta:**\n${respuesta}`
     )]
   });
